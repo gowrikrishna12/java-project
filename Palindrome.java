@@ -1,5 +1,5 @@
 /*file			:	Palindrome.java
- * Author		:	Jeswin sabu
+ * Author		:	Gowrikrishna C
  * version		:	1.0
  * description	:	to check wheather a number is palindrome or not
  * date			:	03/10/23
@@ -10,15 +10,15 @@ public class Palindrome {
 	public static void main(String[] args) {
 		String input;
 		Scanner sc =new Scanner(System.in);
-		System.out.println("enter a string to be checked");
+		System.out.println("Enter a string to be checked");
 		input=sc.next();
 		boolean check=ispalindrome(input);
 		if(check==true)
 		{
-			System.out.println("the string is palindrome");
+			System.out.println("The string is palindrome");
 		}
 		else {
-			System.out.println("the string is not palindrome");
+			System.out.println("The string is not palindrome");
 		}
 
 	}
