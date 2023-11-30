@@ -1,7 +1,7 @@
 package javalab;
 /****************************************************************************
  * File           :Palindrome.java
- * Description    :Java program that print the palindrome"
+ * Description    :Java program that check the string is palindrome or not"
  * Author         :Gowrikrishna
  * Version        :1.O
  * Date           :29/08/23
