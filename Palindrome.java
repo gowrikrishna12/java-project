@@ -1,38 +1,41 @@
-package javalab;
-/****************************************************************************
- * File           :Palindrome.java
- * Description    :Java program that check the string is Palindrome or not"
- * Author         :Gowrikrishna C
- * Version        :1.O
- * Date           :29/08/23
- */
+/*file			:	Palindrome.java
+ * Author		:	Jeswin sabu
+ * version		:	1.0
+ * description	:	to check wheather a number is palindrome or not
+ * date			:	03/10/23
+ */package Javaexp;
 import java.util.Scanner;
 public class Palindrome {
-	public static void main(String [] args ) {
-		Scanner sc=new Scanner(System.in);
-		System.out.println("Enter a string");
-		String input=sc.next();
-		boolean isPalindrome=check(input);
-		if(isPalindrome) {
-			System.out.println("The given string is palindrome");
+
+	public static void main(String[] args) {
+		String input;
+		Scanner sc =new Scanner(System.in);
+		System.out.println("enter a string to be checked");
+		input=sc.next();
+		boolean check=ispalindrome(input);
+		if(check==true)
+		{
+			System.out.println("the string is palindrome");
 		}
 		else {
-			System.out.println("The given string is not palindrome");
+			System.out.println("the string is not palindrome");
 		}
+
 	}
-	/*Function recieves string as input returns true if it is palindrome
-	 * else return false
-	 */
-     static boolean check(String input) {
-	char[]charArray=input.toCharArray();
-	int length=input.length();
-	for(int i=0;i<=length/2;i++)
+	/* this function is used to recieve a string and return true or false accordingly*/
+	static boolean ispalindrome(String input)
 	{
-	if(charArray[i]!=charArray[length-i-1]) {
-	}
+		char characterArray[] = input.toCharArray();
+		int length=input.length();
+		for(int i=0;i<length;i++)
+		{
+			if(characterArray[i]!=characterArray[length-i-1]) {
+				return false;
+			}
+			
+		}
 		return true;
 	}
-	return false;
-}
 
 }
+		
