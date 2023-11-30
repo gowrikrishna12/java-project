@@ -3,7 +3,7 @@
  * version		:	1.0
  * description	:	to check wheather a number is palindrome or not
  * date			:	03/10/23
- */package Javaexp;
+ */package Javalab;
 import java.util.Scanner;
 public class Palindrome {
 
@@ -21,7 +21,7 @@ public class Palindrome {
 			System.out.println("The string is not palindrome");
 		}
 
-	}
+	}	
 	/* this function is used to recieve a string and return true or false accordingly*/
 	static boolean ispalindrome(String input)
 	{
