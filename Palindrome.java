@@ -1,8 +1,8 @@
 package javalab;
 /****************************************************************************
  * File           :Palindrome.java
- * Description    :Java program that check the string is palindrome or not"
- * Author         :Gowrikrishna
+ * Description    :Java program that check the string is Palindrome or not"
+ * Author         :Gowrikrishna C
  * Version        :1.O
  * Date           :29/08/23
  */
